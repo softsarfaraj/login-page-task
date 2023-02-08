@@ -1,0 +1,63 @@
+.main{
+  display: flex;
+} 
+ 
+ 
+ .register {
+  /* display: flex; */
+  /* height: 50px; */
+  width: 50%;
+  height: auto;
+  /* border: 2px solid rgb(14, 13, 13); */
+}
+
+.login {
+  width: 50%;
+  height: 572px;
+  /* border: solid 2px black; */
+  padding-top: 60px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border:"2px solid black";
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+th{
+background-color: rgb(141, 141, 227);    
+}
+span{
+  color: red;
+}
+
+.btn{
+  background-color: lightseagreen;
+  width: 170px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bgcol{
+  background-color: aqua;
+}
+
+.act{
+  background-color:rgb(98, 167, 98);
+  width: 45px;
+  padding: 5px;
+  border-radius: 25px;
+}
+a{
+  text-decoration: none;
+}
